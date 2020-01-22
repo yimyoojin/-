@@ -29,8 +29,8 @@ $(document).ready(function(){
 
 
     $(".book_roll li").click(function(){
-        var _this=$(this);
-        var liurl=_this.data("url");
+        var _this =$(this);
+        var liurl =_this.data("url");
         $(".notebook").html();
         $.ajax({
             type : 'post',
